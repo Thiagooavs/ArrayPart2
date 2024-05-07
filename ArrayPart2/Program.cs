@@ -14,10 +14,13 @@ namespace ArrayPart2
         {
             
             Console.Write("Informe quantos números irá digitar: ");
+
             int max = int.Parse(Console.ReadLine());
-            int min;
-            int maxi;
             int[] n = new int[max];
+
+            int min ;
+            int maxi;
+            
 
             Console.Write("Digite o 1° número: ");
                 n[0] = int.Parse(Console.ReadLine());
